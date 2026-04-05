@@ -585,7 +585,8 @@ class DropdownSearchPopupState<T> extends State<DropdownSearchPopup<T>> {
     }
 
     return Padding(
-      padding: const EdgeInsets.all(8.0),
+      // padding: const EdgeInsets.all(8.0),
+      padding: const EdgeInsets.all(0),
       child: textField,
     );
   }
